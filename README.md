@@ -65,6 +65,68 @@ The default endpoint is <b>http://[server]:8080/estimate</b>.  This endpoint tak
 		}
 	}
 
+Sample response:
+
+	{
+		"Uber": {
+			"Estimates": [
+				{
+					"Type": "uberPOOL",
+					"Estimate": "$3-5"
+				},
+				{
+					"Type": "uberX",
+					"Estimate": "$7-9"
+				},
+				{
+					"Type": "uberXL",
+					"Estimate": "$12-16"
+				},
+				{
+					"Type": "UberBLACK",
+					"Estimate": "$14-19"
+				},
+				{
+					"Type": "UberBLACK with Car Seat",
+					"Estimate": "$23-30"
+				},
+				{
+					"Type": "UberSUV",
+					"Estimate": "$22-28"
+				},
+				{
+					"Type": "Family 6",
+					"Estimate": "$31-39"
+				},
+				{
+					"Type": "uberWAV",
+					"Estimate": "$5-8"
+				}
+			]
+		},
+		"Lyft": {
+			"Estimates": [
+				{
+					"Type": "Lyft Plus",
+					"Estimate": "$14-26"
+				},
+				{
+					"Type": "Lyft Line",
+					"Estimate": "$6"
+				},
+				{
+					"Type": "Lyft",
+					"Estimate": "$10-17"
+				}
+			]
+		}
+	}
+
+Credits
+-------
+
+Thanks to <a href="https://thenewstack.io/make-a-restful-json-api-go/">https://thenewstack.io/make-a-restful-json-api-go/</a> for assitance in API organization and adding logging decorator to HTTP handler functions.
+
 
 
 
