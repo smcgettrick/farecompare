@@ -41,6 +41,30 @@ This application requires you to provide API keys for Lyft, MapQuest (for geocod
 	    }
 	}
 
+Usage
+-----
+
+The default endpoint is <b>http://[server]:8080/estimate</b>.  This endpoint takes a POST request with the following JSON body:
+
+	{
+		"StartAddress" : {
+			"StreetAddress": "1401 John F Kennedy Blvd",
+			"City": "Philadelphia",
+			"State": "PA",
+			"ZipCode": "19102",
+			"Latitude": 0.0,
+			"Longitude": 0.0
+		},
+		"EndAddress" : {
+			"StreetAddress": "2955 Market St",
+			"City": "Philadelphia",
+			"State": "PA",
+			"ZipCode": "19104",
+			"Latitude": 0.0,
+			"Longitude": 0.0
+		}
+	}
+
 
 
 
