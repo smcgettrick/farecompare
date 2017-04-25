@@ -1,0 +1,16 @@
+{
+	"ImportPath": "github.com/smcgettrick/farecompare",
+	"GoVersion": "go1.8",
+	"GodepVersion": "v79",
+	"Deps": [
+		{
+			"ImportPath": "github.com/gorilla/mux",
+			"Comment": "v1.3.0-5-g599cba5",
+			"Rev": "599cba5e7b6137d46ddf58fb1765f5d928e69604"
+		},
+		{
+			"ImportPath": "github.com/jasonwinn/geocoder",
+			"Rev": "9a863b98eafdbbc19f66e9b4760887ebdcb55c11"
+		}
+	]
+}
